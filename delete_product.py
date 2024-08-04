@@ -7,7 +7,7 @@ def eliminar(products):
   id = get_id(products, 'Ingrese id del producto a eliminar: ') 
 
   # Confirmar acción
-  accept = input(f'\nConfirmar eliminación (y/n): ')
+  accept = input(f'\nConfirmar eliminación (y): ')
   if (accept != 'y'):
     # Mostrar mensaje de operación abortada
     print('\nProceso cancelado')
@@ -17,6 +17,4 @@ def eliminar(products):
 
     # Mostrar mensaje de eliminación correcta
     print(f'\nEl producto de id {id} ha sido eliminado correctamente')
-    
-  # Imprimir pausa
-  input('\nPresione cualquier tecla para continuar ...')
+

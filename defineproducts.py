@@ -7,9 +7,9 @@ Stock = {1:50, 2:45, 3:30, 4:15}
 # Se crea un objeto único para facilitar la programación y lectura:
 # products = {
 #   1: {
-#     name: 'Pantalones',
-#     price: 200.00,
-#     stock: 50
+#     'name': 'Pantalones',
+#     'price': 200.00,
+#     'stock': 50
 #   },
 #   ...
 # }

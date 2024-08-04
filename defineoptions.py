@@ -1,5 +1,6 @@
 from delete_product import eliminar
 from create_product import agregar
+from update_product import actualizar
 
 options = {
   1: {
@@ -14,7 +15,7 @@ options = {
   },
   3: {
     'name': 'Actualizar',
-    'fn': None,
+    'fn': actualizar,
     'type': None
   },
   4: {

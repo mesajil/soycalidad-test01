@@ -10,7 +10,7 @@ def agregar(products):
   print('\nSe agregarán los siguientes productos:')
   show_table({new_id: product}, 'Producto nuevo')
 
-  accept = input(f'\nConfirmar operación (y/n): ')
+  accept = input(f'\nConfirmar operación (y): ')
   if (accept != 'y'):
     # Mostrar mensaje de operación abortada
     print('\nAcción cancelada')
@@ -20,6 +20,3 @@ def agregar(products):
 
     # Mostrar mensaje de éxito
     print(f'\nSe ha creado un nuevo producto con id {new_id}')
-  
-  # Imprimir pausa
-  input('\nPresione cualquier tecla para continuar ...')
