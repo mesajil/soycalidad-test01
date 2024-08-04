@@ -1,3 +1,3 @@
 # Test 01
 
-El programa de Python permite agregar, eliminar, actualizar productos de prendas de vestir. Utiliza la terminal como interfaz de usuario.
+Desarollar un programa en Python que realize operaciones de crear, actualizar y eliminar productos de una tienda de prendas de vestir.
