@@ -1,14 +1,22 @@
 options = {
   1: {
-    'name': 'Agregar'
+    'name': 'Agregar',
+    'fn': None,
+    'type': None
   },
   2: {
-    'name': 'Eliminar'
+    'name': 'Eliminar',
+    'fn': None,
+    'type': None
   },
   3: {
-    'name': 'Actualizar'
+    'name': 'Actualizar',
+    'fn': None,
+    'type': None
   },
   4: {
-    'name': 'Salir'
+    'name': 'Salir',
+    'fn': None,
+    'type': 'salir'
   }
 }
