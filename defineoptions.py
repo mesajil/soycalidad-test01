@@ -1,12 +1,15 @@
+from delete_product import eliminar
+from create_product import agregar
+
 options = {
   1: {
     'name': 'Agregar',
-    'fn': None,
+    'fn': agregar,
     'type': None
   },
   2: {
     'name': 'Eliminar',
-    'fn': None,
+    'fn': eliminar,
     'type': None
   },
   3: {

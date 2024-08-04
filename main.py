@@ -7,17 +7,16 @@ salir = False
 while (not salir):
   # Leer opción
   show_menu(products, options)
-  option = get_option(options)
+  option_id = get_option(options)
+  option = options[option_id]
 
   # Ejecutar opción
-  option_type = options[option]['type']
-  if (option_type != 'salir'):
+  if (option['type'] != 'salir'):
     # La opción elegida no es 'salir'
-    print('hello')
+    option['fn'](products)
   else:
     # La opción elegida es 'salir'
     salir = True
 
 # Imprimir mensaje de despedida
-print()
-print('Programa finalizado')
+print('\nPrograma finalizado')
