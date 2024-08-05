@@ -1,6 +1,7 @@
-""" Retorna la opción del menú. Itera cuantas veces sea necesario para obtener un valor de opción válido. """
 
 def get_option(options = {}):
+  """ Obtiene y retorna la opción elegida por el usuario """
+  
   option = None
   print()
   while (True):

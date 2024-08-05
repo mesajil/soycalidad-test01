@@ -3,6 +3,8 @@ from get_product_id import get_id
 
 
 def actualizar(products):
+  """ Script para actualizar un producto existente en la base de datos """
+
   # Imprimir un mensaje informativo para actualizar un producto
   print_message()
 

@@ -2,6 +2,7 @@ import sys
 
 def get_id(products, msg = 'Ingrese id del producto: '):
   """ Lee un id de producto """
+  
   print()
   while True:
     try:

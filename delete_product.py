@@ -1,8 +1,8 @@
 from get_product_id import get_id
 
-# Esta opción permite eliminar productos existentes. Para ello se deberá ingresar el id del producto a eliminar. Se mostrará mensaje con el nombre y id del producto para confirmar la eliminación.
-
 def eliminar(products):
+  """ Eliminar un producto de la base de datos """
+
   # Obtener id del producto a eliminar
   id = get_id(products, 'Ingrese id del producto a eliminar: ') 
 
